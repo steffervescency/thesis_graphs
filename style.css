@@ -1,0 +1,84 @@
+.table_graph {
+	display: inline-block;
+}
+
+.table_graph img {
+	width:300px;
+}
+
+.table_graph.medium {
+	padding: 10px;
+	width: 280px;
+}
+
+.table_graph.small {
+	padding:10px;
+	width:120px;
+}
+
+.table_graph.large {
+	padding: 25px;
+	width:300;
+}
+
+.x {
+	color: red;
+	margin-right: 20px;
+	font-weight:bold;
+}
+
+#example_sentences {
+	display:none;
+	width: 100%;
+	bottom: 0px;
+	position:fixed;	
+	background-color:white;
+	border-top: 2px solid black;
+	padding: 5px;
+	padding-bottom:40px;
+	padding-left:25px;
+	background-color: #FFFDD0;
+}
+
+body{
+	padding-bottom:180px;
+/*	font-family: system-ui;*/
+}
+
+#settings {
+  display:none;
+}
+
+
+#settings_arrow {
+	height: 100%;
+	background-color: #AAA;
+	position:fixed;
+	top:0;
+	left:0;
+	padding:5px;
+	transition: 0.2s;
+	border-right: 2px solid black;
+}
+
+#settings_arrow:hover {
+	background-color:#888;
+}
+
+#settings_panel {
+  height: 100%; /* Specify a height */
+  width: 0; /* 0 width - change this with JavaScript */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Stay on top */
+  top: 0;
+  left: 0;
+  background-color: #AAA; /* Black*/
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 60px; /* Place content 60px from the top */
+  transition: 0.2s; /* 0.5 second transition effect to slide in the sidepanel */
+}
+
+#graphs {
+	padding-left: 10px;
+}
+
